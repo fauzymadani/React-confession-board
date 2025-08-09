@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import StickyNote from "./components/StickyNote";
 import dummyNotes from "./data/dummyNotes";
+import BottomNav from "./components/BottomNav";
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -20,9 +21,10 @@ function App() {
           text={note.text}
         />
       ))}
+
+      <BottomNav />
     </div>
   );
 }
 
 export default App;
-
