@@ -1,6 +1,8 @@
 // src/components/StickyNote.jsx
 import React, { useRef } from "react";
 import Draggable from "react-draggable";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faCommentDots } from "@fortawesome/free-solid-svg-icons";
 
 const StickyNote = ({ username, time, text }) => {
   const nodeRef = useRef(null);
@@ -14,7 +16,7 @@ const StickyNote = ({ username, time, text }) => {
         {/* Header */}
         <div className="bg-yellow text-white text-xs px-3 py-2 flex items-center gap-2">
           <div className="w-5 h-5 bg-white rounded-full text-orange flex items-center justify-center font-bold text-sm">
-            👤
+            <FontAwesomeIcon icon={faUser} />
           </div>
           <span className="font-semibold truncate">{username}</span>
           <span className="ml-auto">{time}</span>
@@ -28,7 +30,8 @@ const StickyNote = ({ username, time, text }) => {
         {/* Footer */}
         <div className="px-4 py-2">
           <button className="bg-bluegreen hover:bg-skyblue text-xs text-white w-full py-1 rounded-md flex items-center justify-center gap-1">
-            💬 <span>See Comment...</span>
+            <FontAwesomeIcon icon={faCommentDots} />
+            <span>See Comment...</span>
           </button>
         </div>
       </div>

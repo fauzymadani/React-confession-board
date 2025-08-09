@@ -1,12 +1,117 @@
-# React + Vite
+# React Confession Board (Bun + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application using **Vite** and powered by **Bun** as the package manager & JavaScript runtime.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
 
-## Expanding the ESLint configuration
+Before starting, make sure **Bun** is installed on your system.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installing Bun
+
+### **Windows**
+
+> Currently, Bun on Windows runs via **Windows Subsystem for Linux (WSL)** or **Docker**.
+
+1. **Install WSL**
+
+   ```bash
+   wsl --install
+   ```
+
+   Choose a Linux distribution like **Ubuntu** during setup.
+
+2. **Open WSL**
+
+   ```bash
+   wsl
+   ```
+
+3. **Install Bun**
+
+   ```bash
+   curl -fsSL https://bun.sh/install | bash
+   ```
+
+4. Restart your shell and verify installation:
+   ```bash
+   bun --version
+   ```
+
+---
+
+### **Linux (Ubuntu/Debian/Fedora/Arch)**
+
+1. Open a terminal.
+2. Run:
+   ```bash
+   curl -fsSL https://bun.sh/install | bash
+   ```
+3. Restart your terminal or run:
+   ```bash
+   source ~/.bashrc
+   ```
+4. Verify:
+   ```bash
+   bun --version
+   ```
+
+---
+
+## Clone & Setup Project
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/username/react-confession-board.git
+   cd react-confession-board
+   ```
+
+2. **Install dependencies**
+   ```bash
+   bun install
+   ```
+
+---
+
+## Run the Development Server
+
+```bash
+bun run dev
+```
+
+The project will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+bun run build
+```
+
+The production build will be generated in the `dist` folder.
+
+To preview the build:
+
+```bash
+bun run preview
+```
+
+---
+
+## Tech Stack
+
+- **React** + **Vite**
+- **Tailwind CSS**
+- **Styled Components**
+- **Font Awesome**
+- **react-draggable**
+- **Bun** (package manager & runtime)
