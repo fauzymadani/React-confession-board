@@ -1,3 +1,5 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # React Confession Board (Bun + Vite)
 
 This project is a React application using **Vite** and powered by **Bun** as the package manager & JavaScript runtime.
@@ -115,3 +117,9 @@ bun run preview
 - **Font Awesome**
 - **react-draggable**
 - **Bun** (package manager & runtime)
+
+## License & Attribution
+This project is licensed under the **GPL 3.0 License**.  
+> [!IMPORTANT]  
+> if you use or modify this project, you **must credit the original author**. Redistribution, modification, or use in other projects is allowed under GPL 3, **as long as the original author is acknowledged**.
+
