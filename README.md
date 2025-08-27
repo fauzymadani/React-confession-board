@@ -4,13 +4,11 @@
 
 This project is a React application using **Vite** and powered by **Bun** as the package manager & JavaScript runtime.
 
----
 
 ## Requirements
 
 Before starting, make sure **Bun** is installed on your system.
 
----
 
 ## Installing Bun
 
@@ -43,8 +41,6 @@ Before starting, make sure **Bun** is installed on your system.
    bun --version
    ```
 
----
-
 ### **Linux (Ubuntu/Debian/Fedora/Arch)**
 
 1. Open a terminal.
@@ -61,7 +57,6 @@ Before starting, make sure **Bun** is installed on your system.
    bun --version
    ```
 
----
 
 ## Clone & Setup Project
 
@@ -77,7 +72,6 @@ Before starting, make sure **Bun** is installed on your system.
    bun install
    ```
 
----
 
 ## Run the Development Server
 
@@ -90,8 +84,6 @@ The project will be available at:
 ```
 http://localhost:5173
 ```
-
----
 
 ## Build for Production
 
